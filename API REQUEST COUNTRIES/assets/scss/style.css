@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+body header {
+  background-color: white;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-items: last baseline;
+  box-shadow: 1px -1px 17px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -1px 17px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 17px 1px rgba(0, 0, 0, 0.75);
+}
+
+body header span {
+  font-weight: 400;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 0.5rem;
+}
+
+body header h1 {
+  font-size: 24px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 0.5rem;
+}
+
+body .container {
+  margin-top: 2%;
+}
+
+body .container .input-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .input-div .dropdown .drop-btn {
+  border: 1px solid #d4d0d0;
+}
+
+body .container .input-div .input-group {
+  max-width: 40%;
+}
+
+body .container .input-div .input-group .form-control:focus {
+  border-color: #aeb3af;
+  -webkit-box-shadow: 0 0 0 0.1rem #aeb3af;
+          box-shadow: 0 0 0 0.1rem #aeb3af;
+}
+
+body .container .row {
+  margin-top: 2%;
+  gap: 55px;
+}
+/*# sourceMappingURL=style.css.map */

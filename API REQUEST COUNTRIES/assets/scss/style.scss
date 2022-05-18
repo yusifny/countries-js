@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    header{
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        justify-items:last baseline;
+        box-shadow: 1px -1px 17px 1px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px -1px 17px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px -1px 17px 1px rgba(0,0,0,0.75);
+
+        span{
+            font-weight: 400;
+            padding-left: 15%;
+            padding-right: 15%;
+            margin-top: 0.5rem
+        }
+        
+        h1{
+            font-size: 24px;
+            padding-left: 15%;
+            padding-right: 15%;
+            margin-top: 0.5rem;
+        }
+    }
+    
+    background-color: rgb(238, 238, 238);
+    .container{
+        margin-top: 2%;
+        .input-div{
+            display: flex;
+            justify-content: space-between;
+
+            .dropdown{
+
+                .drop-btn{
+                    border: 1px solid rgb(212, 208, 208);
+                }
+            }
+            .input-group{
+                max-width: 40%;
+                .form-control:focus{
+                    border-color: #aeb3af;
+                    box-shadow: 0 0 0 0.1rem #aeb3af;
+                }
+            }
+        }
+        .row{
+            margin-top: 2%;
+            gap: 55px;
+        }
+    }
+}
